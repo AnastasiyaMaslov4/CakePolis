@@ -1,14 +1,15 @@
 <!doctype html>
-    <html>
+    <html lang="ru">
         <head>
             <title>Кексополис - наборы для приготовления кексов</title>
             <meta charset="UTF-8">
             <meta name="description" content="Уникальные наборы для домашней выпечки кексов в Москве!">
+            <meta name="keywords" content="Выпечка кексов, кулинария, оригинальный подарок, выпечка, кекс, сладости">
             <link href="style.css" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700;900&display=swap" rel="stylesheet">
-            <link rel="shortcut icon" href="img/cake-candles-solid.svg" type="svg">
+            <link rel="shortcut icon" href="img/cake-candles-solid.svg" type="image/svg">
         </head>
         <body>
             <header class="header center">
@@ -30,7 +31,7 @@
                         <div class="buyBtn"><a href="#calculator">Заказать набор</a></div>
                     </div>
                     <div class="main_pic">
-                        <img class="main_pic_img" src="img/Rectangle 2.png" alt="main pic">
+                        <img class="main_pic_img" src="img/top_pic.png" alt="Фото кексов">
                         <div class="shadow"></div>
                     </div>
                 </section>
@@ -90,7 +91,7 @@
                             <button class="buyBtn" type="button" onclick="window.orderDialog.showModal();">Заказать</button>
                         </form>
                         <div class="pic_and_price">
-                            <img :src="picture" class="formPic"/>
+                            <img :src="picture" class="formPic" alt="Фото кексов">
                             <p class="total_price">Стоимость набора: {{price}} руб.</p>
                         </div>
                     </div>
@@ -101,7 +102,7 @@
                     <p class="dialog_text">Наш менеджер свяжется с вами для подтверждения в течение 15 минут. Пожалуйста, оставьте свой адрес электронной почты и номер телефона ниже
                     </p>
                     <form class="dialog_form" action="#" method="dialog">
-                        <input type="email" class="mailInp" name="" id="" placeholder="Ваш E-mail" required>
+                        <input type="email" class="mailInp" name="emailInp" id="EmailInp" placeholder="Ваш E-mail" required>
                         <input type="tel" class="telInp" placeholder="Ваш номер телефона" required>
                         <button class="submit_btn">Отправить</button>
                     </form>
@@ -110,7 +111,7 @@
                 <section id="Contacts" class="center">
                     <h2 class="contacts_title subtitle">Связаться с нами</h2>
                     <div class="contactsDiv">
-                        <form class="contactsForm" action="" method="post" autocomplete="on">
+                        <form class="contactsForm" action="#" method="post" autocomplete="on">
                             <p>Остались вопросы? Отправьте заявку, и наш менеджер вам перезвонит!</p>
                             <input class="nameInp" type="text" placeholder="Ваше имя" required>
                             <input class="mailInp" type="email" placeholder="Ваш E-mail" required>
