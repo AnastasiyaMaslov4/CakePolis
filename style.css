@@ -387,7 +387,6 @@ h3 {
 }
 
 #orderDialog {
-    display: none;
     width: 60%;
     margin-top: 20vh;
     margin-left: auto;
@@ -395,6 +394,17 @@ h3 {
     border-radius: 10px;
     padding: 30px;
     border: none;
+}
+
+.close_btn {
+    width: 30px;
+    height: 30px;
+    margin-left: 95%;
+    border: none;
+    background: url(img/xmark-solid.svg) no-repeat center;
+}
+
+.order_dialog_div {
     display: flex; 
     flex-direction: column;
     align-items: center;

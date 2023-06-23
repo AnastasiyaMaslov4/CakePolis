@@ -98,14 +98,17 @@
                 </section>
 
                 <dialog id="orderDialog">
-                    <h3 class="dialog_subtitle">Спасибо за заказ!</h3>
-                    <p class="dialog_text">Наш менеджер свяжется с вами для подтверждения в течение 15 минут. Пожалуйста, оставьте свой адрес электронной почты и номер телефона ниже
-                    </p>
-                    <form class="dialog_form" action="#" method="dialog">
-                        <input type="email" class="mailInp" name="emailInp" id="EmailInp" placeholder="Ваш E-mail" required>
-                        <input type="tel" class="telInp" placeholder="Ваш номер телефона" required>
-                        <button class="submit_btn">Отправить</button>
-                    </form>
+                    <button class="close_btn" onclick="window.orderDialog.close();"></button>
+                    <div class="order_dialog_div">
+                        <h3 class="dialog_subtitle">Спасибо за заказ!</h3>
+                        <p class="dialog_text">Наш менеджер свяжется с вами для подтверждения в течение 15 минут. Пожалуйста, оставьте свой адрес электронной почты и номер телефона ниже
+                        </p>
+                        <form class="dialog_form" action="#" method="dialog">
+                            <input type="email" class="mailInp" name="emailInp" id="EmailInp" placeholder="Ваш E-mail" required>
+                            <input type="tel" class="telInp" placeholder="Ваш номер телефона" required>
+                            <button class="submit_btn">Отправить</button>
+                        </form>
+                    </div>
                 </dialog>
 
                 <section id="Contacts" class="center">
