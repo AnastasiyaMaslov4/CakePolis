@@ -116,6 +116,7 @@ a:hover, a:active {
     width: 400px;
     height: 364px;
     position: relative;
+    margin-right: 20px;
 }
 
 .main_pic_img {
