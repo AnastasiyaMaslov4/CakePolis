@@ -3,7 +3,7 @@ const app = new Vue({
     el: '#calculator',
     data: {
         type: 'vanilla',
-        size: 6,
+        size: 5,
         pack: 'Обычная',
         price: 0,
         picture: ''
@@ -49,5 +49,15 @@ Vue.component('form-pic', {
         </div>
         `
 });
+
+let menuBtn = document.querySelector('.header__logo');
+
+let mobileMenu = document.querySelector('.header__navigation');
+
+menuBtn.onclick = function() {
+    mobileMenu.classList.toggle('unvisible');
+};
+
+
 
 

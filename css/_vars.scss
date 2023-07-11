@@ -1,0 +1,16 @@
+// Переменные цвета
+ 
+$blackColor: #17202A;
+$whiteColor: #FDFEFE;
+$lightPinkColor: #F1948A;
+$activePinkColor: #EC7063;
+$violetColor: #512E5F;
+$darkBlueColor: #1B4F72;
+
+// Миксины
+
+@mixin horizontal-space-between() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
